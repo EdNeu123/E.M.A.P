@@ -55,3 +55,13 @@ Configuração de pinos utilizada neste projeto:
 ## 🔧 Configuração e "Magic Numbers"
 
 Limiares de ativação definidos no topo do arquivo `.ino`:
+
+'// --- Constantes de Lógica ---
+#define TEMPERATURA_ALERTA 30.0 // Temp. em °C para ligar o LED
+#define DISTANCIA_ALERTA 50     // Distância em cm para tocar o buzzer'
+
+## 👥 Integrantes
+
+* Eduardo J. P. Neumann;
+* Djalma H. Yamamoto
+* Iago R. Tramontin

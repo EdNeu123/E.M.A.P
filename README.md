@@ -1,4 +1,4 @@
-# 🚨 Estação de Monitoramento de Ambiente e Proximidade
+# 🚨 E.M.A.P: Estação de Monitoramento de Ambiente e Proximidade
 
 Um sistema embarcado que utiliza um DHT11 (temperatura/umidade) e um HC-SR04 (distância) para monitorar o ambiente. O sistema fornece alertas visuais (LED) para alta temperatura e sonoros (Buzzer) para detecção de proximidade.
 

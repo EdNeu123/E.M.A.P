@@ -1,6 +1,6 @@
 /*
- * Projeto: Estação de Monitoramento (Pinos customizados)
- * Autor: [Seu Nome/Nome da Equipe]
+ * Projeto: Estação de Monitoramento
+ * Autor: [Eduardo, Djalma e Iago]
  *
  * Componentes:
  * - Sensores: DHT11 (Temp/Umidade), HC-SR04 (Distância)
@@ -25,7 +25,7 @@
 #define BUZZERPIN 13    // Pino digital para o Buzzer (Alerta de Distância)
 
 // --- Constantes de Lógica ---
-#define TEMPERATURA_ALERTA 24 // Temp. em °C para ligar o LED
+#define TEMPERATURA_ALERTA 30 // Temp. em °C para ligar o LED
 #define DISTANCIA_ALERTA 50     // Distância em cm para tocar o buzzer
 
 // --- Configuração do Sensor DHT ---
@@ -60,9 +60,6 @@ void setup() {
   digitalWrite(BUZZERPIN, LOW);
 }
 
-// =================================================================
-// FUNÇÃO LOOP: Executada continuamente
-// =================================================================
 void loop() {
   // --- 1. Leitura dos Sensores ---
 
@@ -113,7 +110,6 @@ void loop() {
   delay(2000);
 }
 
-// =sem-fim
 // FUNÇÃO AUXILIAR: Ler Distância do HC-SR04
 // Retorna a distância em centímetros (cm)
 // =================================================================
